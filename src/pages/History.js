@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { Appear, Table, Paragraph } from "arwes";
+import styles from "../styles/Contact.module.css;"
 
 const History = props => {
   const tableBody = useMemo(() => {
@@ -21,6 +22,11 @@ const History = props => {
   }, [props.launches]);
 
   return <article id="history">
+     <Paragraph className={style.myTechStackContainerHeading}>
+        <span style={{ color: "#ffff" }} className={styles.myTechStack}>
+          &nbsp; Contact me &nbsp;
+        </span>
+      </Paragraph>
     <Appear animate show={props.entered}>
       <Paragraph> {`Thank you for taking the time to visit my portfolio and explore my work.`}</Paragraph>
        <Paragraph>{`If you have any questions, feedback, or just want to say hi, please don't hesitate to get in touch!`}</Paragraph>

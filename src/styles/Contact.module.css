@@ -1,0 +1,43 @@
+
+  .myTechStackContainerHeading{
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+  }
+
+  @media (max-width: 913px) {
+
+
+
+
+    
+  }
+
+   @media (max-width: 821px) {
+   
+      .myTechStackContainerHeading{
+        margin-top: 50px;
+    margin: auto;
+    text-align: center;
+      }
+
+    
+
+
+
+
+   }
+
+   @media (max-width: 470px) {
+   
+
+   }
+
+   @media (max-width: 821px) {
+
+      .myTechStackContainerHeading{
+        margin-top: 50px;
+    margin: auto;
+    text-align: center;
+      }
+    }
