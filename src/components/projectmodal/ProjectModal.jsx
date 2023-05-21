@@ -1,10 +1,13 @@
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import styles from "./ProjectModal.module.css"
 import testImage from "../../assets/museioslogo.png"
+import { Appear, Button, Loading, Paragraph } from "arwes";
+import {Link}  from "react-router-dom";
+import Clickable from '../Clickable';
 
 
 export default function ProjectModal({
@@ -91,6 +94,20 @@ projectDetails
               </div>
             ) : null}
           </div>
+          <div className={styles.nextPageButtonContainer}>
+
+          <Clickable>
+            <Button
+              animate
+              // show={props.entered}
+              type="submit"
+              layer="success"
+              onClick={handleClose}            >
+              ⬅ Back
+            </Button>
+          </Clickable>
+       
+      </div>
         </Box>
       </Modal>
     </div>
