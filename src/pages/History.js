@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Appear, Table, Paragraph } from "arwes";
-import styles from "../styles/Contact.module.css;"
+import styles from "../styles/Contact.module.css"
 
 const History = props => {
   const tableBody = useMemo(() => {
