@@ -22,7 +22,7 @@ const History = props => {
   }, [props.launches]);
 
   return <article id="history">
-     <Paragraph className={style.myTechStackContainerHeading}>
+     <Paragraph className={styles.myTechStackContainerHeading}>
         <span style={{ color: "#ffff" }} className={styles.myTechStack}>
           &nbsp; Contact me &nbsp;
         </span>
