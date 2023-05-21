@@ -129,7 +129,7 @@ const useProjectData = () => {
     },
     {
       id: 3,
-      name: "MUSEHEALTH-DASHBOARD",
+      name: "MUSE HEALTH-DASHBOARD",
       from: "May 2022",
       to: "Mar 2023",
       logo: musehealthlogo,
