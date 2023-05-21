@@ -45,7 +45,7 @@ overflow-x: hidden;
     width: 30px;
     height: 30px;
     color: #fff;
-    background-color: red;
+    /* background-color: red; */
     /* border-radius: 50%; */
     position: absolute;
     top:0px;
