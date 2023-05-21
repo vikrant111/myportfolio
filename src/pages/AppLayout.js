@@ -61,7 +61,7 @@ const AppLayout = props => {
         {anim => (
           <div style={{padding: "20px"}}>
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
               <PortfolioHome 
                 entered={anim.entered}
                />
