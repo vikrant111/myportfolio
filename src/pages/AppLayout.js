@@ -4,6 +4,7 @@ import {
 import {
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 import {
   Frame,
@@ -20,6 +21,7 @@ import Footer from "../components/Footer";
 import PortfolioHome from "./PortfolioHome";
 import History from "./History";
 import Projects from "./Projects";
+
 
 const styles = () => ({
   content: {
@@ -71,10 +73,10 @@ const AppLayout = props => {
                 entered={anim.entered}
                />
             </Route>
-            <Route exact path="/aboutme">
+            {/* <Route exact path="/aboutme">
               <PortfolioHome
                 entered={anim.entered} />
-            </Route>
+            </Route> */}
             <Route exact path="/projects">
               <Projects
                 entered={anim.entered} />
@@ -82,6 +84,7 @@ const AppLayout = props => {
             <Route exact path="/contact">
               <History entered={anim.entered} />
             </Route>
+            <Redirect to="/myportfolio" />
           </Switch>
           </div>
         )}
