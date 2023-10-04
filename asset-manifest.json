@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.d3f290a6.css",
-    "main.js": "/myportfolio/static/js/main.85539cd4.js",
+    "main.js": "/myportfolio/static/js/main.a59cf2c4.js",
     "static/media/portfoliologo.jpg": "/myportfolio/static/media/portfoliologo.d92756e651767969215d.jpg",
     "static/media/5.png": "/myportfolio/static/media/5.20df64b95d97ae5d0ca8.png",
     "static/media/nodejs.jpg": "/myportfolio/static/media/nodejs.0af566fb9a83a53c6167.jpg",
@@ -10,8 +10,8 @@
     "static/media/expressjs.png": "/myportfolio/static/media/expressjs.b6be3fd7258efa4e889a.png",
     "static/media/3.png": "/myportfolio/static/media/3.188b6dee808b5fd9b057.png",
     "static/media/4.png": "/myportfolio/static/media/4.65dc9f5ec54dcb75cbff.png",
-    "static/media/vikrantcv.pdf": "/myportfolio/static/media/vikrantcv.130b6665bb603ed83688.pdf",
     "static/media/museioslogo.png": "/myportfolio/static/media/museioslogo.529a49fada3a1ad851b2.png",
+    "static/media/vikrant_resume_2023_.pdf": "/myportfolio/static/media/vikrant_resume_2023_.8487d067a3b47493381a.pdf",
     "static/media/7.png": "/myportfolio/static/media/7.1cb300ec507d280d786c.png",
     "static/media/10.png": "/myportfolio/static/media/10.3023980253edac0374f8.png",
     "static/media/8.png": "/myportfolio/static/media/8.a95f770f6b41e2eda7d7.png",
@@ -42,10 +42,10 @@
     "static/media/reactjs.png": "/myportfolio/static/media/reactjs.ef20e673b9282f8f30fd.png",
     "index.html": "/myportfolio/index.html",
     "main.d3f290a6.css.map": "/myportfolio/static/css/main.d3f290a6.css.map",
-    "main.85539cd4.js.map": "/myportfolio/static/js/main.85539cd4.js.map"
+    "main.a59cf2c4.js.map": "/myportfolio/static/js/main.a59cf2c4.js.map"
   },
   "entrypoints": [
     "static/css/main.d3f290a6.css",
-    "static/js/main.85539cd4.js"
+    "static/js/main.a59cf2c4.js"
   ]
 }
