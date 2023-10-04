@@ -9,6 +9,7 @@ import museioslogo from "../assets/museioslogo.png"
 import dwul from "./dwulimages";
 import big4healthImages from "./big4healthimages";
 import iosdashboardImages from "./iosdashboardimages";
+import PeakAlphaImages from "./PeakAlphaImages";
 
 const useProjectData = () => {
   const projectData = [
@@ -18,7 +19,7 @@ const useProjectData = () => {
       from: "Mar 2023",
       to: "Current",
       logo: peakalpha,
-      images: "",
+      images: PeakAlphaImages,
       company: "BOTMANTRA",
       location: "Bengaluru, Karnataka",
       tech: "React.js, Redux, Material UI",

@@ -8,7 +8,7 @@ import {
 } from "arwes";
 import { Appear, Button, Loading, Paragraph } from "arwes";
 import Clickable from "../components/Clickable";
-import cv from "../assets/vikrantcv.pdf";
+import cv from "../assets/vikrant_resume_2023_.pdf";
 import mernImage from "../assets/profilepic.jpeg";
 import styles from "../styles/aboutme.module.css";
 import useTechStackDetails from "../hooks/useTechStackDetails";
