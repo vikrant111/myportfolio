@@ -32,6 +32,7 @@ const styles = () => ({
   },
   centered: {
     flex: 1,
+    maxWidth:"1600px",
     paddingTop: "20px",
     paddingBottom: "10px",
   },

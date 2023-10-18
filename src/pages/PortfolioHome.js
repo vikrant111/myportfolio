@@ -8,7 +8,7 @@ import {
 } from "arwes";
 import { Appear, Button, Loading, Paragraph } from "arwes";
 import Clickable from "../components/Clickable";
-import cv from "../assets/vikrant_resume_2023_.pdf";
+import cv from "../assets/Vikrant_Tiwari_new_CV_2023.pdf";
 import mernImage from "../assets/profilepic.jpeg";
 import styles from "../styles/aboutme.module.css";
 import useTechStackDetails from "../hooks/useTechStackDetails";
@@ -35,7 +35,7 @@ const PortfolioHome = props => {
   }
 
   const saveFile = () => {
-    saveAs( cv, "VikrantCV.pdf");
+    saveAs( cv, "Vikrant_Tiwari_new_CV_2023.pdf");
     };
 
   const today = new Date().toISOString().split("T")[0];
